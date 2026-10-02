@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "build": "1",
+  "channel": "alpha.1",
+  "bundleIdentifier": "com.engaze.pastebook",
+  "minimumSystemVersion": "26.0",
+  "releaseTag": "v0.1.0",
+  "releaseTitle": "Pastebook 0.1.0 (alpha)",
+  "releasesRepository": "PrerakGada/pastebook-releases",
+  "homebrewVersion": "0.1.0",
+  "assets": {
+    "dmg": "Pastebook-0.1.0.dmg",
+    "zip": "Pastebook-0.1.0.zip"
+  }
+}
