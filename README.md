@@ -9,7 +9,7 @@ This repository only holds the signed downloads. Website: <https://pastebook.pre
 
 ## This is an alpha
 
-Pastebook 0.1.1 is the second alpha. It is signed and notarized by Apple and passes its own automated checks,
+Pastebook 0.1.2 is the third alpha. It is signed and notarized by Apple and passes its own automated checks,
 and has been used day to day by one person so far. Expect rough edges, and keep a second copy of anything you cannot lose.
 There is no in-app updater in this version.
 
@@ -29,7 +29,7 @@ open -a Pastebook
 
 Homebrew also links the `pastebook` command-line tool.
 
-Or [download the DMG](https://github.com/PrerakGada/pastebook-releases/releases/download/v0.1.1/Pastebook-0.1.1.dmg):
+Or [download the DMG](https://github.com/PrerakGada/pastebook-releases/releases/download/v0.1.2/Pastebook-0.1.2.dmg):
 
 1. Open the downloaded disk image.
 2. Drag **Pastebook** onto the **Applications** shortcut.
@@ -49,7 +49,10 @@ welcome window or in Settings:
 ## Privacy
 
 Your history stays on your Mac, in `~/Library/Application Support/Pastebook`. Pastebook has no account, no
-analytics and no telemetry. It only uses the network for features you switch on (iCloud Drive sync, link titles).
+analytics and no telemetry. It only uses the network for features you switch on (iCloud Drive sync, link titles), and
+when you send feedback yourself: a message goes only when you press Send, with what you typed plus the app and macOS
+versions and the Mac model. The server notes a rough location (country, region and city) from your connection and
+stores no IP address.
 
 ## Uninstall
 
